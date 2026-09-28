@@ -1,0 +1,24 @@
+# dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets and local config: never commit these
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# local runtime data
+*.db
+*.sqlite
+*.log
+.DS_Store
+.claude/settings.local.json
